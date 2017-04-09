@@ -7,5 +7,5 @@ RUN adduser --gecos plexdl,plexdl,plexdl --home /home/plexdl --disabled-password
 
 USER plexdl
 
-RUN git clone https://github.com/cmotc/PlexDownload /home/plexdl/app
+RUN git clone https://github.com/cmotc/PlexDownloader /home/plexdl/app
 
